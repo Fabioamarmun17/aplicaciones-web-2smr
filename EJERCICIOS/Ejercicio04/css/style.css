@@ -1,0 +1,32 @@
+#titulo {
+    color: red
+}
+
+.Trabajador {
+    background-color: grey;
+}
+
+.TrabajadorPapu {
+    background-color: grey;
+    
+}
+
+span {
+    text-decoration: underline;
+}
+
+.Trabajador1 {
+    color: blue;
+    text-align: center;
+    padding: 17px;
+}
+
+.Trabajador2 {
+    color: green;
+    text-align: center;
+    padding: 17px;
+}
+
+.Marco1 {
+    border: 2px solid black;
+}
