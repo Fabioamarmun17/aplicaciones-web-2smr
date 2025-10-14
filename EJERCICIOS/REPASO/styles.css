@@ -1,0 +1,42 @@
+body {
+    background-color: #f4f4f4;
+    min-height: 100vh;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+header {
+    text-align: center;
+    background-color: #333;
+    color: white;
+}
+
+footer {
+    background-color: #333;
+    padding: 0px;
+    color: white;
+    font-size: 0.9rem;
+}
+
+.menu-arriba {
+    background-color: #8b5d5d;
+    padding: 20 px;
+}
+
+.menu-arriba ul {
+    list-style: none;
+    display: flex;                      /* Usamos Flexbox para alinear los elementos de una lista */
+    padding: 0;
+    justify-content: center;
+}
+
+.menu-arriba ul li {
+    margin: 25px 200px;
+}
+
+.articulo {
+    background-color: white;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
