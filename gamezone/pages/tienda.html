@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -20,83 +20,139 @@
                 <li><a href="../index.html">Inicio</a></li>
                 <li><a href="#">Noticias</a></li>
                 <li><a href="#">Guías</a></li>
-                <li><a href="/pages/contacto.html">Contacto</a></li>
-                <li><a href="/pages/registro.html">Registro</a></li>
-                <li><a href="/pages/tienda.html">Tienda</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+                <li><a href="registro.html">Registro</a></li>
+                <li><a href="tienda.html">Tienda</a></li>
             </ul>
         </nav>
     </header>
 
     <main id="contenido-principal">
+        <!-- SECCION DE PRÁCTICA GRID -->
+        <section class="tarjeta practica-grid">
+            <h2>Ejemplo de cuadrícula con Grid</h2>
+
+            <!-- Contenedor grid -->
+            <div class="grid-container">
+                <div class="item-grid item-1">1</div>
+                <div class="item-grid item-2">2</div>
+                <div class="item-grid item-3">3</div>
+                <div class="item-grid item-4">4</div>
+                <div class="item-grid item-5">5</div>
+                <div class="item-grid item-6">6</div>
+            </div>
+        </section>
+
+        <section class="tarjeta practica-grid">
+            <h2>Ejemplo de web con layout Grid</h2>
+            <div class="contenedor-areas">
+                <header class="area-header">CABECERA</header>
+                <nav class="area-menu">MENU</nav>
+                <main class="area-main">CONTENIDO PRINCIPAL</main>
+                <aside class="area-aside">ASIDE</aside>
+                <footer class="area-footer">PIE</footer>
+            </div>
+        </section>
+
         <section class="tarjeta tienda">
             <!-- Contenedor de cards de producto -->
             <div class="lista-cards lista-cards--flex">
-
+                
                 <!-- Primer producto -->
                 <article class="card">
                     <!-- Imagen -->
                     <img src="../imagenes/mouse.png" alt="Ratón gaming RGB" class="card-imagen">
-                    <!-- Titulo del producto -->
+
+                    <!-- Título del producto -->
                     <h3 class="card-titulo">Ratón Gaming RGB</h3>
-                    <!-- Descripción del prodducto -->
+
+                    <!-- Descripción del producto -->
                     <p class="card-descripcion">
                         Ratón ergonómico con 6 botones y sensor de alta precisión.
                     </p>
-                    <!-- Precio del producto -->
-                    <p class="card-precio">
-                        19.99€
-                    </p>
-                    <!-- Botón (solo decorativo, sin funcionalidad JavaScript) -->
-                    <a href="#" class="card-boton">Añadir al carrito</a>
-                </article>
-                <article class="card">
-                    <!-- Imagen -->
-                    <img src="../imagenes/mandops5.png" alt="PlayStation Dualsense PS5" class="card-imagen">
-                    <!-- Titulo del producto -->
-                    <h3 class="card-titulo">PlayStation Dualsense PS5</h3>
-                    <!-- Descripción del prodducto -->
-                    <p class="card-descripcion">
-                        Mando inalámbrico para jugar a PlayStation 5.
-                    </p>
-                    <!-- Precio del producto -->
-                    <p class="card-precio">
-                        49.99€
-                    </p>
-                    <!-- Botón (solo decorativo, sin funcionalidad JavaScript) -->
-                    <a href="#" class="card-boton">Añadir al carrito</a>
-                </article>
-                <article class="card">
-                    <!-- Imagen -->
-                    <img src="../imagenes/teclado.png" alt="Teclado Gaming RGB" class="card-imagen">
-                    <!-- Titulo del producto -->
-                    <h3 class="card-titulo">Teclado Gaming RGB</h3>
-                    <!-- Descripción del prodducto -->
-                    <p class="card-descripcion">
-                        Teclado gaming con luces para jugar en tu ordenador.
-                    </p>
-                    <!-- Precio del producto -->
-                    <p class="card-precio">
-                        29.99€
-                    </p>
-                    <!-- Botón (solo decorativo, sin funcionalidad JavaScript) -->
-                    <a href="#" class="card-boton">Añadir al carrito</a>
-                </article>
-            </div>
-        </section>
-        <section class="tarjeta practica-grid">
-            <h2>Ejemplo de cuadrícula con Grid</h2>
 
-            <!-- Contenedor de Grid -->
-            <div class="grid-container">
-                <div class="item-grid">1</div>
-                <div class="item-grid">2</div>
-                <div class="item-grid">3</div>
-                <div class="item-grid">4</div>
-                <div class="item-grid">5</div>
-                <div class="item-grid">6</div>
+                    <!-- Precio del producto -->
+                    <p class="card-precio">19.99€</p>
+
+                    <!-- Botón (solo decorativo, sin funcionalidad JavaScript) -->
+                    <a href="#" class="card-boton">Añadir al carrito</a>
+                </article>
+                <article class="card">
+                    <!-- Imagen -->
+                    <img src="../imagenes/mouse.png" alt="Ratón gaming RGB" class="card-imagen">
+
+                    <!-- Título del producto -->
+                    <h3 class="card-titulo">Ratón Gaming RGB</h3>
+
+                    <!-- Descripción del producto -->
+                    <p class="card-descripcion">
+                        Ratón ergonómico con 6 botones y sensor de alta precisión.
+                    </p>
+
+                    <!-- Precio del producto -->
+                    <p class="card-precio">19.99€</p>
+
+                    <!-- Botón (solo decorativo, sin funcionalidad JavaScript) -->
+                    <a href="#" class="card-boton">Añadir al carrito</a>
+                </article>
+                <article class="card">
+                    <!-- Imagen -->
+                    <img src="../imagenes/mouse.png" alt="Ratón gaming RGB" class="card-imagen">
+
+                    <!-- Título del producto -->
+                    <h3 class="card-titulo">Ratón Gaming RGB</h3>
+
+                    <!-- Descripción del producto -->
+                    <p class="card-descripcion">
+                        Ratón ergonómico con 6 botones y sensor de alta precisión.
+                    </p>
+
+                    <!-- Precio del producto -->
+                    <p class="card-precio">19.99€</p>
+
+                    <!-- Botón (solo decorativo, sin funcionalidad JavaScript) -->
+                    <a href="#" class="card-boton">Añadir al carrito</a>
+                </article> 
+                <article class="card">
+                    <!-- Imagen -->
+                    <img src="../imagenes/mouse.png" alt="Ratón gaming RGB" class="card-imagen">
+
+                    <!-- Título del producto -->
+                    <h3 class="card-titulo">Ratón Gaming RGB</h3>
+
+                    <!-- Descripción del producto -->
+                    <p class="card-descripcion">
+                        Ratón ergonómico con 6 botones y sensor de alta precisión.
+                    </p>
+
+                    <!-- Precio del producto -->
+                    <p class="card-precio">19.99€</p>
+
+                    <!-- Botón (solo decorativo, sin funcionalidad JavaScript) -->
+                    <a href="#" class="card-boton">Añadir al carrito</a>
+                </article> 
+                <article class="card">
+                    <!-- Imagen -->
+                    <img src="../imagenes/mouse.png" alt="Ratón gaming RGB" class="card-imagen">
+
+                    <!-- Título del producto -->
+                    <h3 class="card-titulo">Ratón Gaming RGB</h3>
+
+                    <!-- Descripción del producto -->
+                    <p class="card-descripcion">
+                        Ratón ergonómico con 6 botones y sensor de alta precisión.
+                    </p>
+
+                    <!-- Precio del producto -->
+                    <p class="card-precio">19.99€</p>
+
+                    <!-- Botón (solo decorativo, sin funcionalidad JavaScript) -->
+                    <a href="#" class="card-boton">Añadir al carrito</a>
+                </article> 
             </div>
         </section>
-        </main>
+    </main>
+
     <footer class="pie">
         <p>&copy; 2025 Todos los derechos reservados.</p>
     </footer>
