@@ -41,4 +41,38 @@ footer {
 
 .contenedor-tarjetas-productos {
     display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 10px;
+}
+
+.tarjeta {
+    border: 2px #CCC;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 300px;
+    text-align: center;
+    justify-items: center;
+    align-items: center;
+    background-color: #F9F9F9;
+    box-shadow: 2px 2px 5px rgba(0,0,0,0.1);
+    transition-duration: 0.5s;
+}
+
+.tarjeta img {
+    max-width: 75%;
+    border-radius: 10px;
+}
+
+.tarjeta h2 {
+    color: #333;
+}
+
+.descripcion-producto {
+    color: #777;
+}
+
+.precio-producto {
+    font-size: 1.25rem;
+    color: #E74C3C;
 }

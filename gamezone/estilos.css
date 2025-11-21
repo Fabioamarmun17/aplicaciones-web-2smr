@@ -206,8 +206,8 @@ button[type="submit"]:hover {
 
 
 /* ======================
-   SECCION TIENDA
-   ======================
+SECCION TIENDA
+======================
 */
 
 /* Aplicar estos estilos solo a los elementos que tengan las clases tienda y tarjeta a la vez */
@@ -279,8 +279,8 @@ button[type="submit"]:hover {
 }
 
 /* display: inline-block
-   Se comporta como inline (se coloca en línea) pero permite aplicar propiedades de bloque (ancho, alto, margin, padding)
-   Si no lo hubieramos puesto, no saltaría de línea, no puedes definir width, height ni margin-top/bottom.
+Se comporta como inline (se coloca en línea) pero permite aplicar propiedades de bloque (ancho, alto, margin, padding)
+Si no lo hubieramos puesto, no saltaría de línea, no puedes definir width, height ni margin-top/bottom.
 */
 
 .practica-grid.tarjeta {
