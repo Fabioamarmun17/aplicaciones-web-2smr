@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <meta name="Fabio Martín Muñoz">
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body class="cuerpo-pagina">
+    <header>
+        <img src="imagenes/alanturing.png" alt="">
+    </header>
+    <form class="contenido-principal formulario">
+        <fieldset>
+            <legend>
+            Nueva incidencia
+        </legend>
+            <div> 
+                <label for="nombre">Profesor *:</label>
+                <input required type="text" placeholder="Escribe tu nombre aquí.">
+            </div>
+            <div>
+                <label for="correo">Correo electrónico *: </label>
+                <input required type="email" placeholder="Escribe tu correo aquí.">
+            </div>
+            <div>
+                <label for="departamento">Departamento *: </label>
+                <select name="departamento" id="departamento">
+                        <option selected disabled>Informática</option>
+                        <option value="informatica">Informática</option>
+                        <option value="ofimatica">Ofimática</option>
+                        <option value="digitalizacion">Digitalización</option>
+                        <option value="sistemas">Sistemas</option>
+                    </select>
+            </div>
+            <div> 
+                <label for="aula">Aula *:</label>
+                <input required type="text" placeholder="Escribe el aula de la incidencia.">
+            </div>
+            <div> 
+                <label for="dia">Día de la incidencia *:</label>
+                <input type="date">
+            </div>
+            <div> 
+                <label for="hora">Hora de la incidencia *:</label>
+                <input type="time">
+            </div>
+            <div> 
+                <label for="descripcion">Descripción de la incidencia *:</label>
+                <input required type="text">
+            </div>
+            <div>
+                <label for="imagen">Imagen de la incidencia (opcional): </label>
+                <input type="submit" value="Elegir archivo">
+            </div>
+            <div>
+            
+            </div>
+        </fieldset>
+    </form>
+    <footer class="pie">
+        <h3>Síguenos</h3>
+    </footer>
+</body>
+</html>
